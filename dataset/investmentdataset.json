@@ -1,0 +1,45 @@
+{
+	"name": "investmentdataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sourcelinkservices",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "investment.csv",
+				"folderPath": "myinputdata",
+				"container": "newrgcontainerinput"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "State",
+				"type": "String"
+			},
+			{
+				"name": "R&D Spend",
+				"type": "String"
+			},
+			{
+				"name": "Administration",
+				"type": "String"
+			},
+			{
+				"name": "Marketing Spend",
+				"type": "String"
+			},
+			{
+				"name": "Profit",
+				"type": "String"
+			}
+		]
+	}
+}
