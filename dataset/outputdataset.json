@@ -1,0 +1,52 @@
+{
+	"name": "outputdataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sourcelinkservices",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "myoutputdata",
+				"container": "newrgcontainerinput"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "CASENUM",
+				"type": "String"
+			},
+			{
+				"name": "ATTORNEY",
+				"type": "String"
+			},
+			{
+				"name": "CLMSEX",
+				"type": "String"
+			},
+			{
+				"name": "CLMINSUR",
+				"type": "String"
+			},
+			{
+				"name": "SEATBELT",
+				"type": "String"
+			},
+			{
+				"name": "CLMAGE",
+				"type": "String"
+			},
+			{
+				"name": "LOSS",
+				"type": "String"
+			}
+		]
+	}
+}
