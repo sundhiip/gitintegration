@@ -1,0 +1,9 @@
+{
+	"name": "rgdatafactorygitdevops",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "19150f49-8810-4964-9501-b25f4166117f",
+		"tenantId": "9232c810-399c-446f-b8b4-9ca985f693fd"
+	}
+}
