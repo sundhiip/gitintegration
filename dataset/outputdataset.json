@@ -2,7 +2,7 @@
 	"name": "outputdataset",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "sourcelinkservices",
+			"referenceName": "datasetnewlinkedservices",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -10,8 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"folderPath": "myoutputdata",
-				"container": "newrgcontainerinput"
+				"folderPath": "output",
+				"container": "newrrg222222"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
