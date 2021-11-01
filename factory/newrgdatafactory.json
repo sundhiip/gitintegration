@@ -1,0 +1,9 @@
+{
+	"name": "newrgdatafactory",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "38844976-4720-4ad7-bf24-a4473fea2a4d",
+		"tenantId": "9232c810-399c-446f-b8b4-9ca985f693fd"
+	}
+}
