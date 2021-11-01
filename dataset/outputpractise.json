@@ -1,0 +1,43 @@
+{
+	"name": "outputpractise",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "datasetnewlinkedservices",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "newrrg222222"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "AT",
+				"type": "String"
+			},
+			{
+				"name": "V",
+				"type": "String"
+			},
+			{
+				"name": "AP",
+				"type": "String"
+			},
+			{
+				"name": "RH",
+				"type": "String"
+			},
+			{
+				"name": "PE",
+				"type": "String"
+			}
+		]
+	}
+}
