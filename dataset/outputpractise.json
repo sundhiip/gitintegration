@@ -1,5 +1,5 @@
 {
-	"name": "outputdataset",
+	"name": "outputpractise",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "datasetnewlinkedservices",
@@ -10,7 +10,6 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"folderPath": "output",
 				"container": "newrrg222222"
 			},
 			"columnDelimiter": ",",
@@ -20,31 +19,23 @@
 		},
 		"schema": [
 			{
-				"name": "CASENUM",
+				"name": "AT",
 				"type": "String"
 			},
 			{
-				"name": "ATTORNEY",
+				"name": "V",
 				"type": "String"
 			},
 			{
-				"name": "CLMSEX",
+				"name": "AP",
 				"type": "String"
 			},
 			{
-				"name": "CLMINSUR",
+				"name": "RH",
 				"type": "String"
 			},
 			{
-				"name": "SEATBELT",
-				"type": "String"
-			},
-			{
-				"name": "CLMAGE",
-				"type": "String"
-			},
-			{
-				"name": "LOSS",
+				"name": "PE",
 				"type": "String"
 			}
 		]
